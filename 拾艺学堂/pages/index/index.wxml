@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<scroll-view class="container">
+  <view class='swiper_tab'>
+     <block wx:for="{{tabData}}" wx:key="{{index}}"><view class="swiper-tab-item {{currentTab==index?'active':''}}" data-current='{{index}}' bindtap='clickTab'>{{item.text}}</view></block>
+  </view>
+  <swiper class='swiper_box' current='{{currentTab}}' duration='300' bindchange='swiperTab'>
+    <swiper-item>
+      <block wx:for="{{tastClassData}}" wx:key="index">
+        <navigator url='/pages/tastClass/tastClass'>
+          <image src='{{item.src}}'></image>
+          <text class='text-item description'>{{item.desc}}</text>
+          <view class='add_wrap'><image src='/images/location.jpg'></image><text class='text-item address'>{{item.address}}</text></view>
+        </navigator>
+      </block>
+    </swiper-item>
+    <swiper-item>
+      <block wx:for="{{systemClassData}}" wx:key="index">
+        <navigator>
+          <image src='{{item.src}}'></image>
+          <text class='text-item description'>{{item.desc}}</text>
+          <view class='add_wrap'><image src='/images/location.jpg'></image><text class='text-item address'>{{item.address}}</text></view>
+        </navigator>
+      </block>
+    </swiper-item>
+    <swiper-item>
+       <block wx:for="{{vipCardData}}" wx:key="index">
+        <navigator>
+          <image src='{{item.src}}'></image>
+          <text class='text-item description'>{{item.desc}}</text>
+          <view class='add_wrap'><image src='/images/location.jpg'></image><text class='text-item address'>{{item.address}}</text></view>
+        </navigator>
+      </block>
+    </swiper-item>
+  </swiper>
+  
+</scroll-view> 
