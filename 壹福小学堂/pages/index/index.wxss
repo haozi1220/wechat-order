@@ -1,0 +1,56 @@
+/**index.wxss**/
+page{
+  height: 100%;
+}
+.container{
+  padding: 0;
+  height: 100%;
+}
+.swiper_tab{
+  width: 100%;
+  border-top: 2rpx solid #ccc;
+  text-align: center;
+  height: 88rpx;
+  line-height: 88rpx;
+  font-weight:bold;
+  background-color:#fff;
+  z-index: 10;
+}
+.swiper-tab-item{
+  display: inline-block;
+  width: 33.3%;
+  color: red;
+}
+.active{
+  color: aqua;
+  border-bottom: 4rpx solid red;
+}
+.swiper_box{
+  height: 92%;
+}
+swiper-item{
+  height: 100%;
+  overflow-y: auto;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.text-item{
+  display: inline-block;
+  font-size: 24rpx;
+  line-height: 36rpx;
+}
+.add_wrap{
+  padding-bottom: 12rpx;
+  padding-left: 12rpx;
+  vertical-align: middle;
+}
+navigator image{
+  width: 100%;
+  height: 400rpx;
+}
+.add_wrap image{
+  vertical-align: middle;
+  width: 35rpx;
+  height: 35rpx;
+}

@@ -1,0 +1,133 @@
+.wrapp{
+  background:#e6e6e6;
+  padding-bottom: 80rpx;
+}
+.top_class{
+  margin-bottom: 40rpx;
+  background: white;
+}
+.top_class image{
+  width: 100%;
+  height: 400rpx;
+}
+.text_con{
+  padding: 0 40rpx;
+  font-size: 24rpx;
+  line-height: 36rpx;
+}
+.text_con text{
+  display: block;
+}
+.text_content{
+  color: #666;
+}
+.price_wrap{
+  padding: 20rpx 40rpx;
+}
+.price_p{
+  overflow: hidden;
+  position: relative;
+}
+.price_p span{
+  vertical-align: middle;
+}
+.price_now{
+  color: red;
+  font-size: 60rpx;
+  margin-right: 20rpx;
+}
+.sall_person{
+  position: absolute;
+  right: 0;
+  top:30%;
+}
+.view_item{
+  position: relative;
+  margin-bottom: 40rpx;
+  background: white;
+}
+.view_item .title{
+  padding-left: 40rpx;
+  font-size: 40rpx;
+  line-height: 90rpx;
+  color: #ccc;
+  border-bottom: 1rpx solid #e6e6e6;
+}
+.view_item .info_list{
+  list-style: none;
+  padding-left: 20rpx;
+}
+.view_item .info_item{
+  position: relative;
+  font-size: 28rpx;
+  line-height: 88rpx;
+  border-bottom: 1px solid #e6e6e6;
+}
+.info_item:last-child{
+  border-bottom: none;
+}
+.info_item .caret{
+  position: absolute;
+  right: 0;
+  padding-right: 30rpx;
+}
+.view_item .view_item_shadow{
+  position: absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  background: transparent;
+}
+/*购买须知部分  */
+.copyList{
+  font-size: 28rpx;
+  line-height: 48rpx;
+}
+.copyList .copyItem{
+  padding: 10rpx 10rpx 10rpx 0;
+}
+.warning{
+  display: block;
+  padding: 40rpx 30rpx;
+  font-size: 24rpx;
+  line-height: 46rpx;
+  color: #060606;
+}
+/*支付框部分  */
+.pay_wrap{
+  position: fixed;
+  right:0;
+  bottom:0;
+  left:0;
+  height: 100rpx;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+}
+.pay_wrap view{
+    flex: 1;
+}
+.pay_wrap image{
+  vertical-align: middle;
+  width: 60rpx;
+  height: 60rpx;
+  padding: 20rpx 30rpx;
+}
+.pay_btn{
+  text-align: right;
+  padding: 10rpx 60rpx 10rpx 0;
+}
+.chat_btn{
+  border: 0;
+  background: none;
+}
+.pay_btn text{
+  display: inline-block;
+  padding: 0 40rpx;
+  border-radius: 20rpx;
+  background: red;
+  font-size: 28rpx;
+  line-height: 60rpx;
+  color: #fff;
+}
