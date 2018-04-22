@@ -5,7 +5,7 @@
     <view data-callnumber='{{callNumber}}' bindtap='tap'>
       <rich-text nodes="{{nodes}}"></rich-text>
     </view> 
-    <view>联系客服咨询</view>
+    <view>或点击 <contact-button></contact-button> 联系客服咨询</view>
   </view>
   <view class='myOrder_wrap' bindtap='loginEnter'>
     <text class='myorder'>我的订单</text><text class='caret'>></text>

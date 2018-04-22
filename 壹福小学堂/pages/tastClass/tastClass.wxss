@@ -108,11 +108,8 @@
 .pay_wrap view{
     flex: 1;
 }
-.pay_wrap image{
-  vertical-align: middle;
-  width: 60rpx;
-  height: 60rpx;
-  padding: 20rpx 30rpx;
+.contact_wrap{
+  padding: 30rpx;
 }
 .pay_btn{
   text-align: right;

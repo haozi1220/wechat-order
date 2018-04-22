@@ -31,6 +31,7 @@
     <text class='warning'>1、特价课程体验有效期自购买之日起90天，如超过90天未能预约体验，系统自动识别为已上课，三个月后安排好时间去店内体验。2、购买后需至少提前一天致电店内64226949进行预约后方可到点体验。3、如有团建需求，请联系QQ：1936988187</text>
   </view>
   <view class='pay_wrap'>
+    <view class='contact_wrap'><contact-button></contact-button></view>
     <view class='pay_btn' bindtap='payTap'>
       <text>去支付</text>
     </view>
